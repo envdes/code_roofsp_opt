@@ -1,7 +1,5 @@
 # Urban Rainwater Tank and Roof Sprinkling
 
-Junjie Yu, Manchester, UK, 2024-11-24
-
 Repo for implementation of urban rainwater tank and roof sprinkling on CLMU
 
 CLM - tag: release-clm5.0.37-1-ge7285f6ca
