@@ -7,7 +7,7 @@ CLM - tag: release-clm5.0.37-1-ge7285f6ca
 ## Step 0: data preparation and evaluation
 | task| code | note |
 | :-----| ----: | :----: |
-|forcing preview| [0_forcing_plot.ipynb](data/forcing_plot.ipynb)|[Fig S2](data/figs/forcing_data.pdf)|
+|forcing preview| [0_forcing_plot.ipynb](data/forcing_plot.ipynb)|[Fig S1](data/figs/forcing_data.pdf)|
 |urban surface data| [1_surface_data.ipynb](data/surface_data.ipynb)|
 |Run pyclmuapp for evaluation| [2_get_simulation_for_eval.ipynb](data/get_simulation_for_eval.ipynb)|
 |Plots of pyclmuapp evaluation| [3_pyclmuapp_eval.ipynb](data/3_pyclmuapp_eval.ipynb)|[Fig S3](data/figs/JP_Yoyogi_urb_SWup.pdf),[Fig S4](data/figs/JP_Yoyogi_urb_LWup.pdf), [Fig S5](data/figs/JP_Yoyogi_urb_Qh.pdf), [Fig S6](data/figs/JP_Yoyogi_urb_Qle.pdf)|
@@ -18,7 +18,7 @@ CLM - tag: release-clm5.0.37-1-ge7285f6ca
 |sampling| [script.sh](src_water_tank/script.sh)| `bash script.sh`|
 |sampling processing| [0_data_processing.ipynb](src_water_tank/0_data_processing.ipynb)|
 |modeling| [1_cv_surrogate.ipynb](src_water_tank/1_cv_surrogate.ipynb)|
-|modeling analysis| [2_shap.ipynb](src_water_tank/2_shap.ipynb)|[Fig 2](data/figs/water_tank_exps.pdf),[Fig S7](data/figs/water_tank_exps_shap_tg.pdf), [Fig S8](data/figs/water_tank_exps_shap_SI.pdf)|
+|modeling analysis| [2_shap.ipynb](src_water_tank/2_shap.ipynb)|[Fig 2](data/figs/water_tank_exps.pdf),[Fig S7](data/figs/surrogate_performance.pdf), [Fig S8](data/figs/mean_shap_values.pdf)|
 |optimization analysis| [3_moo.ipynb](src_water_tank/3_moo.ipynb)|[Fig 3](data/figs/water_tank_moo.pdf), [Fig S9](data/figs/water_tank_profiles.pdf)|
 |impact analysis| [4_climate_effect_extreme.ipynb](src_water_tank/4_climate_effect_extreme.ipynb)|[Fig 4](data/figs/extreme_bar.pdf)|
 |impact analysis| [4_climate_effect.ipynb](src_water_tank/4_climate_effect.ipynb)|[Fig 5](data/figs/heat_wave.pdf), [Fig S10](data/figs/diurnal_profile.pdf), [Fig S1](data/figs/density_profile.pdf)|
